@@ -1,0 +1,100 @@
+body {
+    width: 1240px;
+    height: 1754px;
+    /* border: solid black; */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.imgdefault {
+    width: 120px;
+}
+
+.header-text p {
+    margin: 10px;
+}
+
+main{
+    border: solid black;
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+.sginfo{
+    border-bottom: solid black;
+    background-color: aqua;
+    text-align: center ;
+    padding: 4px;
+}
+
+.topsect{
+    display: flex;
+    border-bottom: solid black;
+}
+
+.sginfo p{
+    margin: 0;
+}
+
+.block{
+    margin-left: 5px;
+    width: 33%;
+}
+
+.tablehead{
+    background-color: aqua;
+    border-bottom: solid black;
+}
+
+.subtable{
+    display: flex; 
+    justify-content: space-between;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th {
+    padding: 8px;
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+}
+
+th div:first-child {
+    justify-content: flex-start;
+}
+
+td:nth-child(4), td:nth-child(6) {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sched{
+    margin-left:13px
+}
+
+td:nth-child(5) {
+    padding-left: 50px; /* Example of adding padding to the entire column */
+    text-align: left;
+}
+
+
+td:nth-child(6) {
+    text-align: left;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
