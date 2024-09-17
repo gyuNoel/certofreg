@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .extended-underline {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 2px; /* Adjust this to fit the underline thickness */
+        }
+
+        .extended-underline::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 120%; /* Adjust this percentage to extend the underline */
+            height: 2px; /* Adjust the height to match the thickness of the underline */
+            background-color: black; /* Adjust the color to match your design */
+            transform: translateX(-10%); /* Adjust this value to fine-tune positioning */
+        }
+    </style>
+</head>
+<body>
+    <span class="extended-underline">Underlined text</span>
+</body>
+</html>
