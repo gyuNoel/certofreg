@@ -168,3 +168,54 @@ td:nth-child(6) {
 .tablethree tr:nth-child(2) td{
     text-align: center;
 }
+
+.rulesonrefund{
+    justify-content: center;
+    width: 55%;
+    padding-left: 60px;
+}
+
+.rulesonrefund p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-left: 30px;
+}
+
+ol li {
+    padding-left: 20px;
+}
+
+hr{
+    border: solid black 1px;
+}
+
+.rulesonrefund table{
+    width: 100%;
+}
+
+.rulesonrefund tbody{
+    width: 100%;
+}
+
+.rulesonrefund td:first-child{
+    width: 40%;
+}
+
+.rulesonrefund td:nth-child(2){
+    width: 60%;
+    padding-right: 20px;
+    text-align: center;
+}
+
+hr{
+    margin-block-start: 0;
+    margin-block-end: 3px;
+}
+
+.signature{
+    width: 100%;
+}
+
+.regsign{
+    width: 50%;
+}
