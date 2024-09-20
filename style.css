@@ -214,8 +214,46 @@ hr{
 
 .signature{
     width: 100%;
+    display: flex;
+}
+
+.emptyblock{
+    width: 489px;
+    height: 300px;
+    margin: 20px;
 }
 
 .regsign{
-    width: 50%;
+   width: 50%;
+    padding: 100px;
+}
+
+.regsign p:nth-child(2){
+    text-align: center;
+}
+
+.regsign p{
+    margin-block-end: 0;
+    margin-block-start: 5px;
+}
+
+
+.regsign p:first-child{
+    margin-left: 15px;
+}
+
+.regsign hr{
+    margin-left: 70px;
+}
+
+
+.dateprinted{
+    text-align: right;
+    margin-block-end: 0;
+}
+
+footer{
+    background-color:rgb(152, 251, 251);
+    border-top: solid black 1px;
+    text-align: center;
 }
