@@ -4,6 +4,7 @@ body {
     /* border: solid black; */
     margin: 20px auto;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -22,6 +23,12 @@ header {
     margin: 10px;
 }
 
+.certofreg{
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 10px;
+}
+
 main{
     border: solid black 2px;
     margin-left: 50px;
@@ -30,9 +37,11 @@ main{
 
 .sginfo{
     border-bottom: solid black 2px;
-    background-color: rgb(152, 251, 251);
+    background-color: rgb(200, 191, 231);
     text-align: center ;
     padding: 4px;
+    font-weight: bold;
+    font-size: 1em;
 }
 
 .topsect{
@@ -44,13 +53,23 @@ main{
     margin: 0;
 }
 
-.block{
+.block1{
+    margin-left: 5px;
+    width: 30%;
+}
+
+.block2{
+    margin-left: 5px;
+    width: 39%;
+}
+
+.block3{
     margin-left: 5px;
     width: 33%;
 }
 
 .tablehead{
-    background-color: rgb(152, 251, 251);
+    background-color: rgb(200, 191, 231);
     border-bottom: solid black 2px;
 }
 
@@ -59,10 +78,18 @@ main{
     justify-content: space-between;
 }
 
+.mainsubt{
+    display: flex; 
+    justify-content: space-between;
+    font-size: 0.8em;
+    margin-top: 10px;
+    gap: 5px;
+    text-align: center;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    
 }
 
 
@@ -107,7 +134,7 @@ td:nth-child(6) {
 .feebox{
     border: solid rgb(0, 0, 0) 2px;
     margin-left: 20px;
-    width: 45%;
+    width: 50%;
 }
 
 .feeandrules{
@@ -131,6 +158,7 @@ td:nth-child(6) {
 
 .tabletwo{
     width: 100%;
+    font-weight: bold;
 }
 
 .tabletwo tr{
@@ -143,19 +171,20 @@ td:nth-child(6) {
 }
 
 .tabletwo td:nth-child(3){
-    width: 20%;
     text-align: right;
     border-top: solid black 2px;
 }
 
 .schedpymt{
-    border-bottom: solid black 2px;
     border-top: solid black 2px; 
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
-    background-color:rgb(152, 251, 251);
+    background-color: rgb(200, 191, 231);
+    font-weight: bold;
+    letter-spacing: 9px;
 }
+
 
 .tablethree td{
     border:solid black 1px;
@@ -173,6 +202,7 @@ td:nth-child(6) {
     justify-content: center;
     width: 55%;
     padding-left: 60px;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .rulesonrefund p{
@@ -182,7 +212,9 @@ td:nth-child(6) {
 }
 
 ol li {
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-style: italic;
 }
 
 hr{
@@ -191,6 +223,8 @@ hr{
 
 .rulesonrefund table{
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .rulesonrefund tbody{
@@ -218,18 +252,20 @@ hr{
 }
 
 .emptyblock{
-    width: 489px;
+    width: 600px;
     height: 300px;
     margin: 20px;
 }
 
 .regsign{
-   width: 50%;
+   width: 40%;
     padding: 100px;
+    font-weight: bold;
 }
 
 .regsign p:nth-child(2){
     text-align: center;
+    margin-left: 100px;
 }
 
 .regsign p{
@@ -243,17 +279,50 @@ hr{
 }
 
 .regsign hr{
-    margin-left: 70px;
+    margin-left: 95px;
+    border: solid black 2px;
 }
 
 
 .dateprinted{
     text-align: right;
     margin-block-end: 0;
+    font-size: 0.8em;
 }
 
 footer{
-    background-color:rgb(152, 251, 251);
+    background-color: rgb(200, 191, 231);
     border-top: solid black 1px;
     text-align: center;
+}
+
+.header-text p:first-child{
+    font-size: 0.8em;
+}
+
+.header-text p:nth-child(2){
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.header-text p:nth-child(3){
+    font-size: 0.8em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.assessedfees{
+    border-bottom: solid black 2px; 
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;   
+    background-color: rgb(200, 191, 231);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.receiptdatepad td{
+    padding-bottom: 20px;
 }
